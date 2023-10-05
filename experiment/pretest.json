@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "An IIR filter having numerator order M and denominator order N is to be realized using direct form II structure. How much total number of multiplications, additions and memory locations are required respectively ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "M + N, M + N and M + N",
+        "b": "M + N, M + N and maximum of {M, N}",
+        "c": "M + N + 1, M + N + 1 and M + N",
+        "d": "M + N + 1, M + N and maximum of {M, N}"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,84 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the duration of the unit sample response of a digital filter?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Finite",
+        "b": "Infinite",
+        "c": "Impulse(very small)",
+        "d": "Zero"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following methods are used to convert analog filter into digital filter?",
+      "answers": {
+        "a": "Approximation of Derivatives",
+        "b": "Bilinear transformation",
+        "c": "Impulse invariance",
+        "d": "All of the mentioned"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a representation of system function?",
+      "answers": {
+        "a": "Normal system function",
+        "b": "Laplace transform",
+        "c": "Rational system function",
+        "d": "All of the mentioned"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For an analog LTI system to be stable, where should the poles of system function H(s) lie?",
+      "answers": {
+        "a": "Right half of s-plane",
+        "b": "Left half of s-plane",
+        "c": "On the imaginary axis",
+        "d": "At origin"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the conversion technique is to be effective, then the LHP of s-plane should be mapped into _____________",
+      "answers": {
+        "a": "Outside of unit circle",
+        "b": "Unit circle",
+        "c": "Inside unit circle",
+        "d": "Does not matter"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
