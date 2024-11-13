@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "An IIR filter having numerator order M and denominator order N is to be realized using direct form II structure. How much total number of multiplications, additions and memory locations are required respectively ?",
+      "answers": {
+        "a": "M + N, M + N and M + N",
+        "b": "M + N, M + N and maximum of {M, N}",
+        "c": "M + N + 1, M + N + 1 and M + N",
+        "d": "M + N + 1, M + N and maximum of {M, N}"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Assertion:- IIR filter is the non-recursive type of filter. Reason:- IIR used feedback circuitry.",
+      "answers": {
+        "a": "Both (A) and (R) are true and (R) is correct explanation of (A)",
+        "b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+        "c": "(A) is true but (R) is false",
+        "d": "(A) is false but (R) is true"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the following statements regarding the impulse invariant method of IIR filter design: 1. After digitizing the analog filter, the impulse response of the original analog filter is preserved. 2. The method is inappropriate for the design of high-pass or band-stop filters. Which of these statements is/are correct?",
+      "answers": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A digital signal processing system is described by the expression: y(n) = 2x(n) + x(n – 1) + 2y(n – 1) The system is:",
+      "answers": {
+        "a": "A stable FIR filter",
+        "b": "A stable IIR filter",
+        "c": "An unstable FIR filter",
+        "d": "An unstable IIR filter"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
